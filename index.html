@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>João Carlos | Meu Jeito de Viver</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #080808;
+    color: white;
+}
+
+header {
+    background: #111;
+    padding: 25px;
+    text-align: center;
+    border-bottom: 2px solid #168cff;
+}
+
+header h1 {
+    color: #168cff;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: #168cff;
+}
+
+.inicio {
+    min-height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(135deg, #080808, #14243a);
+}
+
+.inicio h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+span {
+    color: #168cff;
+}
+
+.inicio p {
+    max-width: 600px;
+    line-height: 1.7;
+    color: #ccc;
+}
+
+.botao {
+    margin-top: 25px;
+    padding: 14px 28px;
+    background: #168cff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.sobre {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.sobre h2 {
+    color: #168cff;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    max-width: 700px;
+    margin: auto;
+    line-height: 1.8;
+    color: #ccc;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 20px 70px;
+}
+
+.card {
+    background: #151515;
+    width: 280px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    border-color: #168cff;
+}
+
+.emoji {
+    font-size: 50px;
+}
+
+.card h3 {
+    color: #168cff;
+    margin: 15px 0;
+}
+
+.card p {
+    color: #bbb;
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #111;
+    color: #888;
+}
+
+@media(max-width: 600px) {
+    .inicio h2 {
+        font-size: 34px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>JOÃO CARLOS</h1>
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#sobre">Sobre mim</a>
+        <a href="#gostos">Meus gostos</a>
+    </nav>
+</header>
+
+<section class="inicio" id="inicio">
+    <h2>Eu sou <span>João Carlos!</span></h2>
+
+    <p>
+        Futebol, amizade, motos e liberdade.
+        Vivendo cada momento e aproveitando a vida
+        do meu próprio jeito!
+    </p>
+
+    <a href="#sobre" class="botao">Conheça minha história</a>
+</section>
+
+<section class="sobre" id="sobre">
+    <h2>Quem é João Carlos?</h2>
+
+    <p>
+        Sou João Carlos, uma pessoa que gosta de aproveitar
+        a vida e valoriza os bons momentos.
+        Gosto de jogar bola, sair com meus amigos
+        e andar de moto.
+        Tenho um espírito aventureiro e gosto de liberdade.
+        Para mim, a vida é feita de amizades verdadeiras,
+        diversão e experiências inesquecíveis!
+    </p>
+</section>
+
+<section class="cards" id="gostos">
+
+    <div class="card">
+        <div class="emoji">⚽</div>
+        <h3>Futebol</h3>
+        <p>
+            Minha paixão é jogar bola,
+            me divertir e aproveitar cada partida.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="emoji">🤝</div>
+        <h3>Amigos</h3>
+        <p>
+            Gosto de sair, dar risadas
+            e criar momentos especiais com meus amigos.
+        </p>
+    </div>
+
+    <div class="card">
+        <div class="emoji">🏍️</div>
+        <h3>Motos</h3>
+        <p>
+            Liberdade, aventura e a emoção
+            de andar de moto e conhecer lugares.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 - João Carlos</p>
+    <p>Vivendo, aprendendo e aproveitando! ❤️</p>
+</footer>
+
+</body>
+</html>
